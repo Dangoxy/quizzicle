@@ -13,10 +13,12 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px 0px;
+  padding: 0px 0px;
 
   
+  height: 100vh;
 
+  background: linear-gradient(45deg, rgb(120, 194, 194),rgb(212, 212, 212));
 }
 
 .question--container {

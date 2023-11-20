@@ -64,7 +64,7 @@ export default function App() {
   function maker(){
     let tt = []
     if(data){
-    for (let i=0; i< 8; i++){
+    for (let i=0; i< 5; i++){
       let cur = data[i]
       let tempans = cur.incorrectAnswers
       tempans.push(cur.correctAnswer)
@@ -117,7 +117,7 @@ export default function App() {
     <div className="main--container">
       {mappedQuestionsElements}
       <div className="pas--container">
-        <h1>Score: {curScore}/8</h1>
+        <h1>Score: {curScore}/5</h1>
         <button onClick={restart}>Play again</button>
       </div>
       
