@@ -1,0 +1,147 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+}
+
+.main--container {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+
+  
+
+}
+
+.question--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  border: 2px solid purple;
+  border: none;
+  color: black;
+
+  border-radius: 10px;
+  padding: 10px;
+  gap: 20px;
+  margin: 5px;
+  width: 98%;
+
+}
+
+
+.answer--bubble {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+  border-radius: 50px;
+  padding: 5px 15px;
+  margin: 0px 10px;
+  min-width: 140px;
+  background: white;
+  box-shadow: 1px 1px 6px 1px rgba(0, 175, 166, 0.5);
+
+
+}
+
+.answer--container{
+  display: flex;
+}
+
+.homepage{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  
+
+
+  height: 100vh;
+
+  background: linear-gradient(45deg, rgb(120, 194, 194),rgb(212, 212, 212));
+
+  
+}
+
+.homepage button{
+  margin-top: 20px;
+  padding: 10px 40px;
+  font-size: 1rem;
+  background: rgb(255, 255, 255);
+  box-shadow: 1px 1px 6px 1px rgb(69, 104, 104);
+  border: none;
+  border-radius: 20px;
+  
+}
+
+
+.homepage button:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.homepage button:active{
+  cursor: pointer;
+  transform: scale(0.95);
+}
+
+.homepage p{
+  margin-top: 10px;
+  width: 240px;
+}
+
+.answer--bubble:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+  background-color: rgba(0,0,255,75%);
+  color: white;
+}
+
+.answer--bubble:active{
+  cursor: pointer;
+  transform: scale(0.95);
+}
+
+.pas--container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-top: 20px;
+  
+}
+
+.pas--container button{
+
+  padding: 10px 40px;
+  font-size: 1rem;
+  background: rgb(255, 255, 255);
+  box-shadow: 1px 1px 6px 1px rgb(69, 104, 104);
+  border: none;
+  border-radius: 20px;
+}
+
+.pas--container button:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.pas--container button:active{
+  cursor: pointer;
+  transform: scale(0.95);
+}
